@@ -1,0 +1,151 @@
+/* #region variables */
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: rgba(46, 47, 66, 0.4);
+  --hero-bg: rgba(46, 47, 66, 0.7);
+  --white-bg: #fff;
+  --modal-bg: #fcfcfc;
+}
+/* #endregion variables */
+
+/* #region base */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-bg);
+  color: var(--text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+button {
+  color: currentColor;
+  cursor: pointer;
+}
+footer {
+  background-color: #515270;
+}
+/* #endregion base */
+
+/* #region common */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--primary-brand);
+}
+.logo-dark {
+  color: var(--dark);
+}
+.logo-light {
+  color: var(--light);
+}
+/* #endregion common */
+
+/* #region header */
+.nav-link {
+  font-weight: 500;
+  color: var(--dark);
+}
+.nav-link:hover,
+.nav-link a:focus {
+  color: var(--pressed-state);
+}
+.nav-link:active {
+  color: var(--pressed-state);
+  text-decoration: underline;
+}
+.address-link {
+  color: var(--dark);
+}
+.address-link:hover,
+.address-link a:focus {
+  color: var(--pressed-state);
+}
+/* #endregion header */
+
+/* #region hero */
+.hero {
+  background-color: #515270;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--white-bg);
+}
+.hero-btn {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--white-bg);
+  background-color: var(--primary-brand);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  font-weight: 600;
+}
+.hero-btn:active {
+  color: var(--pressed-state);
+}
+/* #endregion hero */
+
+/* #region features */
+.features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark);
+}
+/* #endregion features */
+
+/* #region team */
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--dark);
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark);
+}
+/* #endregion team */
+
+/* #region portfolio */
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--dark);
+}
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark);
+}
+/* #endregion portfolio */
+
+/* #region footer */
+.footer-text {
+  color: var(--light);
+}
+/* #endregion footer */
